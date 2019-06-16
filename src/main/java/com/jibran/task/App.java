@@ -204,7 +204,7 @@ public final class App {
 	 */
 	private static void showUsage() {
 		System.out.println("Please pass the arguments as shown below.");
-		System.out.println("program-name <minute> <hour> <day_of_month> <month> <day_of_week>");
-		System.out.println("e.g. cron-parser 30 5 * * 1");
+		System.out.println("program-name <minute> <hour> <day_of_month> <month> <day_of_week> <command>");
+		System.out.println("e.g. cron-parser 30 5 * * 1 /user/bin/find");
 	}
 }
